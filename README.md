@@ -58,6 +58,13 @@ Ensure you have the following installed on your machine:
    - Create a `.env` file in the `frontend` directory
    - Add the necessary environment variables as per `frontend/.env.example`
 
+   ````
+       BASE_API_URL=http://localhost:8000/api
+       ```
+   ````
+
+- Replace `http://localhost:8000` with the actual base URL of your API server.
+
 4. **Run the frontend application**
    ```sh
    npm run dev
